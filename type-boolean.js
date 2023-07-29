@@ -1,10 +1,14 @@
+// boolean
+// true -> verdadeiro
+// false -> falso
+
 const primeiroNumero = 5;
-const segundoNumero = 10;
-const texto = "O arthur é lindo"
-const texto2 = "O arthur nao é lindo"
-console.log(primeiroNumero === segundoNumero);
-if(primeiroNumero === segundoNumero){
-    console.log(texto);
-}else{
-    console.log(texto2);
-}
+const segundoNumero = 5;
+let cadastroAtivado = true;
+
+//console.log(primeiroNumero === segundoNumero);
+
+const texto1 = "Alura";
+const texto2 = "alura";
+
+console.log(texto1 === texto2)
